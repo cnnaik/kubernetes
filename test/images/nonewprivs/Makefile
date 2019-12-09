@@ -13,8 +13,7 @@
 # limitations under the License.
 
 SRCS = nnp
-ARCH ?= $(shell uname -m)
-#ARCH ?= amd64
+ARCH ?= amd64
 TARGET ?= $(CURDIR)
 GOLANG_VERSION ?= latest
 SRC_DIR = $(notdir $(shell pwd))
